@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="shortcut icon"
+        href="https://www.iucn.org/sites/dev/files/styles/850x500_no_menu_article/public/blue-morpho-350x150-matthiasfr-pixabay-crop.jpg?itok=Y8DXROpH"
+        type="image/x-icon">
+
+    <!-- external css style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- awesome css link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>cart layout</title>
+</head>
+
+<body>
+    <!-- start of navbar layout -->
+    <div class="container-fluid">
+        <div class="row custom-header align-items-center">
+            <div class="col-lg-2">
+                <a class="navbar-brand text-white raju" href="index.html">
+                    <img src="https://www.pinclipart.com/picdir/middle/444-4440792_amazon-png-transparent-image-amazon-logo-hd-png.png"
+                        alt="" height="40px">
+                </a>
+            </div>
+            <div class="col-lg-7">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+
+            </div>
+            <div class="col-lg-3">
+                <ul class="d-flex justify-content-evenly align-items-center">
+                    <li class="list-unstyled">
+                        <a href="signin.html" class="text-white text-decoration-none fs-5"> <i
+                                class="fas fa-sign-in-alt fs-2 p-2"></i>signin</a>
+                    </li>
+                    <li class="list-unstyled">
+                        <a href="signup.html" class="text-white text-decoration-none fs-5 p-2"><i
+                                class="fas fa-user-plus fs-2"></i>signup</a>
+                    </li>
+                    <li class="list-unstyled mt-2">
+                        <a href="cart.html" class="text-white text-decoration-none fs-3 ">
+                            <i class="fas fa-cart-plus fs-2.5 position-relative">
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning"
+                                    style="font-size: 12px;">
+                                    <span class="text-dark">5</span>
+
+
+                                </span>
+                            </i></a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="deals.html">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cutomer service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Video</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">New Releases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Music</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- end of navbar layout -->
+
+    <!-- start of cart layout -->
+    <div class="container my-4">
+        <div class="text-center text-muted">Your cart : <b>3</b>Items</div>
+        <div class="row d-flex justify-content-evenly ">
+            <div class="col-md-8">
+                <div class="d-flex shadow-lg p-2 align-items-center ">
+                    <div class="col-3 ">
+                        <img src="https://images.unsplash.com/photo-1477322524744-0eece9e79640?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHczJTIwZm9yZXN0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                            alt="this is a forest" height="150px" width="150px">
+                    </div>
+                    <div class="col-3">
+                        <div class="text-muted"><b>forest</b></div>
+                    </div>
+                    <div class="col-2">
+                        <p class="text-warning"><b>Rs.1500</b></p>
+                    </div>
+                    <div class="col-3">
+                        <div class="d-flex justify-content-evenly">
+                            <button class="btn btn-primary">+</button>&nbsp;
+                            <input type="number" value="1" readonly class="form-control">&nbsp;
+                            <button class="btn btn-danger">-</button>
+                        </div>
+                    </div>
+                    <div class="col-1 p-1">
+                        <button class="btn btn-danger">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="shadow p-3">
+                    <h5 class="text-center text-muted">Cart Summery</h5>
+                    <hr>
+                    <p>SubTotal: <b>3</b>(Items)</p>
+                    <p>Total: <b>Rs.25000</b></p>
+                    <hr>
+                    <button class="btn btn-warning">Check out</button>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- end of cart layout -->
+
+
+
+
+    <!-- start of footer layout -->
+    <div class="container-fluit">
+        <footer class="row row-cols-5 py-5 mt-5 mb-2 my-5 border-top">
+            <div class="col">
+                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <img src="" alt="">
+                </a>
+                <p class="text-white">&copy; 2021</p>
+            </div>
+
+            <div class="col">
+
+            </div>
+
+            <div class="col">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- end of footer layout -->
+
+
+
+
+    <!-- Bootstrap CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

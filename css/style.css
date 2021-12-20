@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-header{
+    background-color: #131913;
+}
+.content-img{
+    height: 400px;
+}
+.navbar{
+    background-color: #232f39 !important;
+    margin: 0 !important;
+    width: 100%;
+}
+.navbar a{
+    color: #fff !important;
+}
+.carousel-item img{
+    height: 510px;
+}
+footer{
+    background-color: #131913;
+}
+footer h5{
+    color: #fff;
+}
+.sidebar a{
+    text-decoration: none;
+}
+.zzz b{
+    color: black;
+}
+.xxx svg{
+    color: orangered;
+    
+}
+.xxx{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
